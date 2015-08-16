@@ -29,7 +29,7 @@ say('time')
                \_)
   
 
-**Following are set of options available from the package.
+**Following are set of options available from the package.**
 
 
 ```{r}
