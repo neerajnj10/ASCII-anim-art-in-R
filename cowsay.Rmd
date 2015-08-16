@@ -6,3 +6,25 @@ install.packages("devtools")
 devtools::install_github("sckott/cowsay")
 library("cowsay")
 ```
+
+```{r}
+say('time')
+```
+
+ -------------- 
+2015-08-16 02:51:22 
+ --------------
+    \
+      \
+        \
+            |\___/|
+          ==) ^Y^ (==
+            \  ^  /
+             )=*=(
+            /     \
+            |     |
+           /| | | |\
+           \| | |_|/\
+      jgs  //_// ___/
+               \_)
+  
