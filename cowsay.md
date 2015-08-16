@@ -78,7 +78,7 @@ say("it's caturday", "bigcat")
 
 
 
--Using piping
+- Using piping
 
 ```{r}
 library("magrittr")
