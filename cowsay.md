@@ -29,12 +29,16 @@ say('time')
                \_)
   
 
+**Following are set of options available from the package.
+
 
 ```{r}
-####match.arg(by, c(choices = names(animals), "rms", "random")) : 
-#'arg' should be one of “cow”, “chicken”, “clippy”, “poop”, “bigcat”, “ant”, “pumpkin”, “ghost”, 
+#match.arg(by, c(choices = names(animals), "rms", "random")) : 
+#'arg' should be one of “cow”, “chicken”, “clippy”, “poop”, “bigcat”, “ant”,
+#“pumpkin”, “ghost”, 
 #“spider”, “rabbit”, “pig”, “snowman”, “frog”, “hypnotoad”, 
-#“facecat”, “behindcat”, “cat”, “trilobite”, “shark”, “buffalo”, “smallcat”, “yoda”, “endlesshorse”, “rms”, “random”
+#“facecat”, “behindcat”, “cat”, “trilobite”, “shark”, “buffalo”, “smallcat”, “yoda”,
+#“endlesshorse”, “rms”, “random”
 ```
 
 ```{r}
