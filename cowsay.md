@@ -126,8 +126,6 @@ say('Fun starts here, because winters !', by='snowman')
 ```{r}
 say(fortune='random', by="clippy")
 ```
-
-
  ----- 
  Frank Harrell: Here is an easy approach that will yield results only slightly less valid than one actually using the response variable:
   x <- data.frame(x1, x2, x3, x4, ..., other potential predictors)
