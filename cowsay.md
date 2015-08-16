@@ -120,3 +120,32 @@ say('Fun starts here, because winters !', by='snowman')
       (")
   >--( : )--<
     (__:__) [nosig]
+
+
+
+```{r}
+say(fortune='random', by="clippy")
+```
+
+
+ ----- 
+ Frank Harrell: Here is an easy approach that will yield results only slightly less valid than one actually using the response variable:
+  x <- data.frame(x1, x2, x3, x4, ..., other potential predictors)
+  x[ , sample(ncol(x))]
+Andy Liaw: Hmm... Shouldn't that be something like:
+  x[, sample(ncol(x), ceiling(ncol(x) * runif(1)))]
+ Frank Harrell and Andy Liaw
+ about alternative strategies for stepwise regression and 'random parsimony'
+ R-help
+ May 2005 
+ ------ 
+    \   
+     \
+   __
+   / \
+   | |
+   @ @
+  || ||
+  || ||
+  |\_/|
+  \___/ GB
