@@ -126,24 +126,21 @@ say('Fun starts here, because winters !', by='snowman')
 ```{r}
 say(fortune='random', by="clippy")
 ```
- ----- 
- Frank Harrell: Here is an easy approach that will yield results only slightly less valid than one actually using the response variable:
-  x <- data.frame(x1, x2, x3, x4, ..., other potential predictors)
-  x[ , sample(ncol(x))]
-Andy Liaw: Hmm... Shouldn't that be something like:
-  x[, sample(ncol(x), ceiling(ncol(x) * runif(1)))]
- Frank Harrell and Andy Liaw
- about alternative strategies for stepwise regression and 'random parsimony'
+----- 
+ Pavel Khomski: How can I specify the random part in the GLMM-call (of the lme4 library) for compound matrices just in the the same way as they defined in the lme-Call (of the nlme library).
+Martin Maechler: ''twice in such a short paragraph -- yikes !!'' ... I'm getting convulsive...
+ Pavel Khomski and Martin Maechler
  R-help
- May 2005 
+ February 2005 
  ------ 
     \   
      \
-   __
-   / \
-   | |
-   @ @
-  || ||
-  || ||
-  |\_/|
-  \___/ GB
+                  ___
+               ___)__|_
+          .-*'          '*-,
+         /      /|   |\     \
+        ;      /_|   |_\     ;
+        ;   |\           /|  ;
+        ;   | ''--...--'' |  ;
+         \  ''---.....--''  /
+          ''*-.,_______,.-*'  [nosig]
