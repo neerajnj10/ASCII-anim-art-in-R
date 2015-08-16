@@ -127,3 +127,18 @@ library("magrittr")
                \ `t  ._  /  bug
                 "-.t-._:'
   
+
+
+```{r}
+say('Fun starts here, because winters !', by='snowman')
+```
+ ----- 
+ Fun starts here, because winters ! 
+ ------ 
+    \   
+     \
+     _[_]_
+      (")
+  >--( : )--<
+    (__:__) [nosig]
+  
