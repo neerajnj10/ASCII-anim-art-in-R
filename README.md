@@ -1,2 +1,3 @@
-# ASCII-anim-art-in-R
-trying animated art in R package
+### ASCII-anim-art-in-R
+
+
